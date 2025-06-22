@@ -1,0 +1,46 @@
+# PHP
+*.log
+*.cache
+*.tmp
+*.temp
+
+# Veritabanı dosyaları
+*.sql
+*.db
+*.sqlite
+
+# IDE ve Editör dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Güvenlik
+.env
+config.php
+*.key
+*.pem
+
+# Geçici dosyalar
+uploads/temp/
+cache/
+logs/
+
+# Composer (eğer kullanılıyorsa)
+vendor/
+composer.lock
+
+# Node.js (eğer kullanılıyorsa)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Backup dosyaları
+*.bak
+*.backup
+*.old 
